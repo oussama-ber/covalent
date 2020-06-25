@@ -45,8 +45,9 @@ import { CovalentNotificationsModule } from '../platform/core/notifications';
 import { CovalentMenuModule } from '../platform/core/menu';
 import { CovalentMediaModule } from '../platform/core/media';
 import { CovalentFileModule } from '../platform/core/file';
+import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
-  declarations: [DocsAppComponent, HomeComponent], // directives, components, and pipes owned by this NgModule
+  declarations: [DocsAppComponent, HomeComponent, FooterComponent], // directives, components, and pipes owned by this NgModule
   imports: [
     BrowserAnimationsModule,
     CommonModule,
